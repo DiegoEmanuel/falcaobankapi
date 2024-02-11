@@ -1,0 +1,24 @@
+curl -X POST \
+  http://localhost:8000/api/transactions \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "name": "Compra de alimentos",
+    "price": 50.25,
+    "type": "saida",
+    "category": "Alimentação"
+}'
+###
+
+//Listar Todos Registros
+POST http://localhost/falcaobankapi/public/api/transactions
+Content-Type: application/json
+
+{
+    "name": "Compra de carros",
+    "price": 1150.25,
+    "type": "entrada",
+    "category": "Carros"
+}
+
+
+
